@@ -1,0 +1,14 @@
+Montagem  do Ambiente de Desenvolvimento
+
+Virtualenv/VirtualenvWrapper
+$ sudo pip install virtualenvwrapper
+$ mkdir -p ~/Desenvolvimento/envs
+$ mkdir -p ~/Desenvolvimento/source
+$ vi ~/.bashrc
+# início
+# Configuracao do VirtualEnvWrapper
+export WORKON_HOME=~/Desenvolvimento/envs
+source /usr/local/bin/virtualenvwrapper.sh
+# fim
+$ source ~/.bashrc 
+
